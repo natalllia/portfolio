@@ -125,11 +125,14 @@
       font-size: 40px;
       font-weight: 600;
     }
-
+  
     .header-nav__list {
-      display: flex;
-      align-items: center;
-      column-gap: 20px;
+     display: flex;
+     align-items: center;
+    }
+
+    .header-nav__item:not(:last-child) {
+     margin-right: 20px;
     }
 
     .header-nav__link {
